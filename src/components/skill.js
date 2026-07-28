@@ -2,8 +2,6 @@ import React from "react"
 
 import { Container, Title } from "./common"
 
-
-
 import "./skill.css"
 import nodejs from "../data/image/node.svg"
 import reactjs from "../data/image/react.svg"
