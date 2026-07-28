@@ -1,9 +1,9 @@
 allowBuilds:
-  core-js: set this to true or false
-  es5-ext: set this to true or false
-  gatsby: set this to true or false
-  gatsby-cli: set this to true or false
-  gatsby-telemetry: set this to true or false
-  mozjpeg: set this to true or false
-  pngquant-bin: set this to true or false
-  sharp: set this to true or false
+  core-js: true
+  es5-ext: true
+  gatsby: true
+  gatsby-cli: true
+  gatsby-telemetry: true
+  mozjpeg: true
+  pngquant-bin: true
+  sharp: true

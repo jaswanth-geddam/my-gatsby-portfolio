@@ -30,7 +30,7 @@
                     "build":  "gatsby build",
                     "develop":  "gatsby develop",
                     "format":  "prettier --write \"**/*.{js,jsx,json,md}\"",
-                    "start":  "npm run develop",
+                    "start":  "pnpm run develop",
                     "serve":  "gatsby serve",
                     "test":  "echo \"Write tests! -\u003e https://gatsby.dev/unit-testing \"",
                     "lint":  "echo \"No linter configured\""
