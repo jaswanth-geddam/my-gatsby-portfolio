@@ -1,16 +1,29 @@
+# My Gatsby Portfolio
 
+Personal portfolio website for Geddam Jaswanth, built with Gatsby (React static site generator).
 
-This is my personal portfolio website
+## Prerequisites
+- Node.js v16+
+- Gatsby CLI (`npm install -g gatsby-cli`)
 
-1.  **Start dev server.**
+## Setup
 
-    Navigate into the site’s directory and start it up.
+```bash
+git clone https://github.com/jaswanth-geddam/my-gatsby-portfolio.git
+cd my-gatsby-portfolio
+npm install
+```
 
-    ```shell
-    cd myPortfolio
-    gatsby develop
-    ```
+## Running
 
-2.  **Open the source code and start observing!**
+```bash
+gatsby develop
+```
 
-    The site is now running at `http://localhost:8000`!
+Opens at `http://localhost:8000`.
+
+## Build
+
+```bash
+gatsby build
+```
