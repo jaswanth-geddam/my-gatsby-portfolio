@@ -6,7 +6,7 @@ import { Container } from "./common"
 import { portfolios } from "../data"
 
 import "./portfolio.css"
-import PortfolioAction from "./PortfolioAction"
+import PortfolioAction from "./portfolio-action"
 
 const Portfolio = () => {
   const portfoliosName = Object.keys(portfolios)

@@ -1,6 +1,6 @@
 export const skills = {
   Web: [
-    { name: require("../components/imges/react.jpg"), percent: 100 },
+    { name: require("../components/images/react.jpg"), percent: 100 },
     { name: "Node JS", percent: 100 },
     { name: "Express JS", percent: 100 },
     { name: "EchmaScript", percent: 100 },
