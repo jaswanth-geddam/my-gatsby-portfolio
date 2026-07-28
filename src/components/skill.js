@@ -5,18 +5,18 @@ import { Container, Title } from "./common"
 import { skills } from "../data"
 
 import "./skill.css"
-import nodejs from "../data/image/node.svg";
-import reactjs from "../data/image/react.svg";
-import htmljs from "../data/image/html.svg";
-import cssjs from "../data/image/css.svg";
-import javascriptjs from "../data/image/javascript.svg";
-import reduxjs from "../data/image/redux.svg";
-import gitjs from "../data/image/git.svg";
-import postmanjs from "../data/image/postman.svg";
-import mongodbjs from "../data/image/mongodb.svg";
-import herokujs from "../data/image/heroku.svg";
-import verceljs from "../data/image/vercel.svg";
-import materialjs from "../data/image/material.svg";
+import nodejs from "../data/image/node.svg"
+import reactjs from "../data/image/react.svg"
+import htmljs from "../data/image/html.svg"
+import cssjs from "../data/image/css.svg"
+import javascriptjs from "../data/image/javascript.svg"
+import reduxjs from "../data/image/redux.svg"
+import gitjs from "../data/image/git.svg"
+import postmanjs from "../data/image/postman.svg"
+import mongodbjs from "../data/image/mongodb.svg"
+import herokujs from "../data/image/heroku.svg"
+import verceljs from "../data/image/vercel.svg"
+import materialjs from "../data/image/material.svg"
 const Skill = () => {
   const skillsName = Object.keys(skills)
   const [selectedSkill, setSelectedSkill] = useState(skillsName[0])
@@ -27,7 +27,7 @@ const Skill = () => {
         <Title title="My Skills" />
         <div className="skills">
           {/* <ul className="skill-nav"> */}
-            {/* {skillsName.map(name => (
+          {/* {skillsName.map(name => (
               <li
                 onClick={() => setSelectedSkill(name)}
                 className={name === selectedSkill ? "active" : ""}
@@ -43,7 +43,7 @@ const Skill = () => {
               <h4>React</h4>
             </div>
             <div id="node">
-              <img src ={nodejs}></img>
+              <img src={nodejs}></img>
               <h4>Node</h4>
             </div>
 
@@ -96,8 +96,6 @@ const Skill = () => {
               <img src={materialjs} alt="Node_logo"></img>
               <h4>Material-UI</h4>
             </div>
-            
-            
           </div>
         </div>
       </Container>

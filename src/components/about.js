@@ -14,12 +14,12 @@ const About = () => {
         <div className="about">
           <div className="about-details">
             <p>
-              Hello! I'm Geddam jaswanth, I
-              develop web applications using frontend or backend.
-              My core skill is based on JavaScript,Node and I love to
-              do most of the things using JavaScript. I love to make the web
-              more open to the world. Looking forward to taking up a challenging role in a company, 
-              while enhancing my technical knowledge and gaining development experience.
+              Hello! I'm Geddam jaswanth, I develop web applications using
+              frontend or backend. My core skill is based on JavaScript,Node and
+              I love to do most of the things using JavaScript. I love to make
+              the web more open to the world. Looking forward to taking up a
+              challenging role in a company, while enhancing my technical
+              knowledge and gaining development experience.
             </p>
             <div className="about-action">
               <Button
@@ -33,7 +33,7 @@ const About = () => {
           </div>
           <div className="about-image">
             <div className="image">
-              <img style={{marginLeft:"30%"}} alt="profile" src={profile}/>
+              <img style={{ marginLeft: "30%" }} alt="profile" src={profile} />
             </div>
           </div>
         </div>

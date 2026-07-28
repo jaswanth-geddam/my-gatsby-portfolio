@@ -1,10 +1,5 @@
 import React from "react"
-import {
-  FaGithub,
-  FaHackerrank,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa"
+import { FaGithub, FaHackerrank, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 
 import "./title.css"
 
@@ -25,9 +20,7 @@ export const Title = ({ title, social, side, height }) => {
               <FaGithub />
             </a>
           </li>
-          <li>
-           
-          </li>
+          <li></li>
           <li>
             <a
               target="_blank"
@@ -37,9 +30,7 @@ export const Title = ({ title, social, side, height }) => {
               <FaLinkedinIn />
             </a>
           </li>
-          <li>
-            
-          </li>
+          <li></li>
         </ul>
       )}
       <p>{title}</p>

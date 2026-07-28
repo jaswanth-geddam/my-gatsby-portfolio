@@ -45,7 +45,7 @@ const Header = () => {
         behavior: "smooth",
       })
     }
-  }       
+  }
 
   return (
     <header ref={headerEl}>
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="header">
           <div className="logo">
             <h1>
-              <Link to="/" style={{color: "#00cf5d"}}>
+              <Link to="/" style={{ color: "#00cf5d" }}>
                 <Logo />
               </Link>
             </h1>
@@ -82,7 +82,7 @@ const Header = () => {
                 Contact
               </a>
             </li>
-            <li> 
+            <li>
               <a
                 className="btn-download"
                 target="_blank"

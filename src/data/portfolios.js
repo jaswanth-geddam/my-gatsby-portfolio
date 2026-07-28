@@ -4,11 +4,10 @@ export const portfolios = {
       type: "featured",
       name: "Flipkart",
       image: require("./image/Tanishq_LandingPage.png"),
-      description:
-        "An E-Commerce Website that sells a variety of products",
+      description: "An E-Commerce Website that sells a variety of products",
       demo: "https://flipclone.netlify.app/",
       source: "https://github.com/Lakshay-Sachdeva/unit-2_team16_flipkart",
-      tools: [  "HTML", "CSS", "javaScript"],
+      tools: ["HTML", "CSS", "javaScript"],
     },
     {
       type: "featured",
@@ -21,7 +20,7 @@ export const portfolios = {
       tools: ["EJS", "HTML", "CSS", "MongoDB"],
     },
   ],
- /*  Others: [
+  /*  Others: [
     {
       type: "featured",
       name: "DevTop",

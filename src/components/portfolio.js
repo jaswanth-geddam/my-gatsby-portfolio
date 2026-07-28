@@ -25,9 +25,7 @@ const Portfolio = () => {
         </div>
         <div className="portfolios">
           <ul className="portfolio-nav">
-              <li>
-                Web
-              </li>
+            <li>Web</li>
           </ul>
           <div className="portfolio-items portfolios-featured">
             {selectedFeaturedPortfolios.map((portfolio, index) => (
@@ -37,12 +35,12 @@ const Portfolio = () => {
                 </div>
                 <div className="details">
                   <h4>
-                   {/*  <a
+                    {/*  <a
                       target="_blank"
                       rel="noopener noreferrer"
                       href={portfolio.demo}
                     > */}
-                      {portfolio.name}
+                    {portfolio.name}
                     {/* </a> */}
                   </h4>
                   <p>{portfolio.description}</p>
@@ -130,7 +128,7 @@ const Portfolio = () => {
               </div>
             ))}
           </div> */}
-         {/*  <PortfolioAction /> */}
+          {/*  <PortfolioAction /> */}
         </div>
       </Container>
     </div>

@@ -11,15 +11,12 @@ export const skills = {
     
     { name: "Jest", percent: 65 },
   ], */
-  Programming: [
-    { name: "JavaScript", percent: 100 },
-
-  ],
+  Programming: [{ name: "JavaScript", percent: 100 }],
   Tools: [
     { name: "Git", percent: 100 },
     { name: "Postman", percent: 100 },
     { name: "Vercel", percent: 100 },
     { name: "Heroku", percent: 100 },
     { name: "MongoDB Atlas", percent: 100 },
-  ], 
+  ],
 }

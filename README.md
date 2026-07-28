@@ -3,6 +3,7 @@
 Personal portfolio website for Geddam Jaswanth, built with Gatsby (React static site generator).
 
 ## Prerequisites
+
 - Node.js v16+
 - Gatsby CLI (`npm install -g gatsby-cli`)
 
