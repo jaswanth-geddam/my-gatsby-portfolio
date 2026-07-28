@@ -1,5 +1,5 @@
 import React from "react"
-import { FaGithub, FaHackerrank, FaLinkedinIn, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 import "./title.css"
 

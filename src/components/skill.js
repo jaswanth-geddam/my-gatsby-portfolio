@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 
 import { Container, Title } from "./common"
 
-import { skills } from "../data"
+
 
 import "./skill.css"
 import nodejs from "../data/image/node.svg"
@@ -18,9 +18,6 @@ import herokujs from "../data/image/heroku.svg"
 import verceljs from "../data/image/vercel.svg"
 import materialjs from "../data/image/material.svg"
 const Skill = () => {
-  const skillsName = Object.keys(skills)
-  const [selectedSkill, setSelectedSkill] = useState(skillsName[0])
-  const selectedSkills = skills[selectedSkill]
   return (
     <div id="skill" className="skill-area">
       <Container>

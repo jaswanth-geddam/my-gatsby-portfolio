@@ -6,16 +6,11 @@ import { Container } from "./common"
 import { portfolios } from "../data"
 
 import "./portfolio.css"
-import PortfolioAction from "./portfolio-action"
-
 const Portfolio = () => {
   const portfoliosName = Object.keys(portfolios)
-  const [selectedPortfolio, setSelectedPortfolio] = useState(portfoliosName[0])
+  const [selectedPortfolio] = useState(portfoliosName[0])
   const selectedFeaturedPortfolios = portfolios[selectedPortfolio].filter(
     portfolio => portfolio.type === "featured"
-  )
-  const selectedPortfolios = portfolios[selectedPortfolio].filter(
-    portfolio => portfolio.type === "regular"
   )
   return (
     <div id="portfolio" className="portfolio-area">
